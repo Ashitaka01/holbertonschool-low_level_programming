@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.hi>
 #include <stdlib.h>
 /**
  * main - main block
@@ -16,7 +16,7 @@ int main(void)
 		a++;
 	}
 
-	c = 'A';
+	a = 'A';
 
 	while (a <= 'Z')
 	{
