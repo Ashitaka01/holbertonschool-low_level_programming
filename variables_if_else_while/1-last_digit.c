@@ -6,12 +6,12 @@
  * Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
-int main(void)
+ int main(void)
 {
 	int n;
 	int last;
-	srand(time(0));
 
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last = n % 10;
 
@@ -20,7 +20,7 @@ int main(void)
 	else if (last == 0)
 		printf("la chaîne et est 0\n", n, last);
 	else if (last < 6)
-		printf("la chaîne est inférieur à 6 et différent de 0\n",n , last);
+		printf("la chaîne et  est inférieur à 6 et différent de 0\n",n , last);
 
 	return (0);
 }
