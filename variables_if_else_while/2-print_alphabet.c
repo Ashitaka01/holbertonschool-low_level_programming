@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main - main block
  * Get a random number and check its last digit, compare it with 5
@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char a = 'a';
-        
-	while( a <='z')
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-	         putchar(a);
-	         a++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
