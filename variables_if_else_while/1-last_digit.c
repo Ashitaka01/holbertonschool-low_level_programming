@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -16,11 +17,11 @@
 	last = n % 10;
 
 	if (last > 5)
-		printf("la chaîne et est supérieure à 5\n", n, last);
+		printf("Last digit of %i is %i and is greater than 5\n", n, last);
 	else if (last == 0)
-		printf("la chaîne et est 0\n", n, last);
+		printf("Last digit of %i is %i and is 0\n", n, last);
 	else if (last < 6)
-		printf("la chaîne et  est inférieur à 6 et différent de 0\n",n , last);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n",n , last);
 
 	return (0);
 }
