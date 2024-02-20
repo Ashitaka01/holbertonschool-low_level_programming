@@ -12,7 +12,7 @@ int main(void)
 	while (a <= 'z')
 	{
 		putchar(a);
-		c++;
+		a++;
 	}
 
 	c = 'A';
@@ -20,7 +20,7 @@ int main(void)
 	while (a <= 'Z')
 	{
 		putchar(a);
-		c++;
+		a++;
 	}
 
 	putchar('\n');
