@@ -11,7 +11,7 @@ int main(void)
 {
 	char a;
 
-	for (a = 'z', a >= 'a');
+	for (a = 'z' ;  a >= 'a');
 	{
 		putchar(a);
 		a--;
