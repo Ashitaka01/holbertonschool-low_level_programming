@@ -7,13 +7,17 @@
  */
 int main(void)
 {
-	int num;
+	char num;
 
-	for (num = 0; num = 15; num++)
+	for (num = '0'; num = '9'; num++)
 	{
-		putchar("%x", num);
+		putchar(num);
 	}
-	printf("\n");
+	for (num = 'a'; num = 'f'; num++)
+	{
+		putchar(num);
+	}
+	putchar("\n");
 	return (0);
 
 }
