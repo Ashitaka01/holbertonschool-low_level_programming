@@ -3,20 +3,18 @@
 #include <stdlib.h>
 /**
  * main - main block
- * prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
+ * prints the lowercase alphabet in reverse,
+ * follow by a new line
  * Return: 0
  */
 int main(void)
 {
-	char a;
+	char lt;
 
-	for (a = 'z' ;  a >= 'a');
-	{
-		putchar(a);
-		a--;
-	}
+	for (lt = 'z'; lt >= 'a')
+		putchar(lt);
+		lt--;
+
 	putchar('\n');
 	return (0);
-
 }
