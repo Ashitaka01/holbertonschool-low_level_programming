@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	char c = '0';
+	int a = '0';
 
-	while (c <= '10')
+	while (a <= '10')
 	{
-		putchar(c);
-		c++;
+		printf(a);
+		a++;
 	}
 
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
