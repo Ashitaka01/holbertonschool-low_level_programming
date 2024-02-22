@@ -3,7 +3,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main (void)
 {
    
        char alphabet = 'a';
@@ -11,12 +11,12 @@ int main(void)
        while (alphabet <= 'z')
        {
        
-       putchar (alphabet);
+       _putchar(alphabet);
 
        alphabet++;
 
        }
         
 
-	putchar('\n');
+	_putchar('\n');
 }
