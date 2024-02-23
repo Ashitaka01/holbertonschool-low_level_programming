@@ -6,11 +6,13 @@
  */
 int print_sign(int n)
 {
+	int test;
+
 	if (n > 0)
 	{
 	
 		test = 1;
-		     _putchar(+);
+		     _putchar('+');
 	}
 	else if (n == 0)
 	{
