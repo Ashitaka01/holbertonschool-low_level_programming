@@ -4,11 +4,12 @@
  * @c: The character to be checked
  *Return: Void
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
+
 	char c;
 
-	if ((c >= 'a' && c >= 'z'o || c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c >= 'z') || (c >= 'A' && c <= 'Z'))
 
 	{
 
