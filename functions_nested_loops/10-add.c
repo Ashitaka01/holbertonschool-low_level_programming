@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
- * add - Adds two values
- * @n1: The first number to be computed
- * @n2: The second number to be computed
+/**
+ * add - returns the sum of its parameters
+ * @n1: int type number
+ * @n2: int type number
  * Return:0
  */
 
