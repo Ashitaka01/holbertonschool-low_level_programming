@@ -3,7 +3,7 @@
  * main - main function
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int i;
 
@@ -16,7 +16,7 @@ int main (void)
 		else if (i % 5 == 0)
 			printf("Buzz");
 		else
-	  		printf("%d", i);	
+			printf("%d", i);	
 		if (i < 100)
 			printf(" ");
 	}
