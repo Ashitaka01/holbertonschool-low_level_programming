@@ -1,17 +1,13 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- *
- *
- *
- */
+ * reset_to_98 - pointer to an int as parameter
+ * @n: pointer
+ * Return: void
+*/
+
 void reset_to_98(int *n)
 {
-	int *o;
-	int k;
-	o = 98;
-	k = &o;
-
-	_putchar('o' sizeof(p));
+	*n = 98;
 
 }
