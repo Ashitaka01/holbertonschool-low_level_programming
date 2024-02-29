@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - Write a function that prints a string, in reverse
- * @ str: the sring de be print
+ * @s: pointer to the string to print
  */
 void print_rev(char *s)
 {
