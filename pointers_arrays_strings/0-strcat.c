@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strcat - concat 2 string
  * @dest:char
  * @src:char
  * Return:char
  */
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
