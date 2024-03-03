@@ -5,18 +5,18 @@
  * @str: pointer
  * Return: capitalzied string
 */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int index = 0;
 
-	while ([index])
+	while (str[index])
 	{
-		if (*[index] >= 'a' && *[index] <= 'z')
-			*[index] -= 32;
+		if (str[index] >= 'a' && str[index] <= 'z')
+			str[index] -= 32;
 
 		index++;
 	}
 
-	return (*);
+	return (str);
 	
 }
