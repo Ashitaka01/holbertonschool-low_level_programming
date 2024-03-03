@@ -2,8 +2,6 @@
 #include <stdio.h>
 /**
  * leet - encodes a string into 1337
- * @s: string to encode
- * @ch: pointer to a strin
  * @str: pointer
  * Return: address of s
  */
