@@ -1,15 +1,19 @@
 #include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
+#include <stdio.h>
+/*
+ **
+ * _strcmp - compares two strings
+ * @s1: string 1
+ * @s2: string 2
+ * Return: 0
  */
-int main(void)
+int _strcmp(char *s1, char *s2)
 {
-    char *str;
+	while (*s1 && *s2 && *s1 == *s2)
+	{
+		s1++;
+		s2++;
+	}
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
+	return (*s1 - *s2);
 }
