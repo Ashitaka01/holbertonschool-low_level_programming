@@ -8,7 +8,7 @@
  * @accept: which consist only of bytes from
  *
  * Return: the number of bytes
- * */
+ */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
@@ -28,8 +28,8 @@ unsigned int _strspn(char *s, char *accept)
 				return (bytes);
 		}
 
-                s++;
-        }
+		s++;
+	}
 
-        return (bytes);
+	return (bytes);
 }
