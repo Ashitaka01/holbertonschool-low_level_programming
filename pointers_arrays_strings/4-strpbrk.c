@@ -24,5 +24,5 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 
-	return ('\0'); * _strpbrk - bytes
+	return ('\0');
 }
