@@ -22,12 +22,11 @@ void print_chessboard(char (*a)[8])
 				if (a[i][j] == ' ')
 
                                 	putchar(' ');
+				else 
+					putchar(a[i][j]);
                         }
-			else 
-			{
-				putchar(a[i][j]);
-			
-			}	
+			 
+	
                 }
 
                 putchar('\n');
